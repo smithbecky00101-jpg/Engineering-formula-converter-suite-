@@ -1,0 +1,15 @@
+{
+  "short_name": "EngSuite",
+  "name": "Engineering Formula & Converter Suite",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "background_color": "#0c4a6e",
+  "theme_color": "#0369a1",
+  "display": "standalone"
+}

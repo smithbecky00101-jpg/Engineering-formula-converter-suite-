@@ -3,11 +3,11 @@ import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { AppProvider } from './context/AppContext';
 import { Header } from './components/Header';
 import { Navigation } from './components/Navigation';
+import { HistoryPanel } from './components/HistoryPanel';
 import { Dashboard } from './pages/Dashboard';
 import { CalculatorView } from './pages/CalculatorView';
 import { ConverterView } from './pages/ConverterView';
 import { FavoritesView } from './pages/FavoritesView';
-import { HistoryPanel } from './components/HistoryPanel';
 
 export const App: React.FC = () => {
   return (
